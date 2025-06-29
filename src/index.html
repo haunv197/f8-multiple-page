@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("./partials/head.ejs") %>
+
+  <body>
+    <div class="wrapper">
+      <!-- Top  Page-->
+      <div class="top-page">
+        <!-- Header -->
+        <%- include("./partials/header.ejs") %>
+
+        <!-- hero -->
+        <div class="hero">
+          <div class="container">
+            <div class="inner">
+              <div class="main-title">
+                <h1>Home</h1>
+                <ul class="breadcrumbs">
+                  <li>
+                    <a href="./">Home</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <main class="main-content"></main>
+
+      <%- include("./partials/footer.ejs") %>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
